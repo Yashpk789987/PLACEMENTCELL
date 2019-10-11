@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="application.nis.com.placementcell">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/placementcell"
+        android:label="T/P Cell "
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".StudentSignUp" />
+        <activity
+            android:name=".StudentLoginActivity"
+            android:label="@string/title_activity_student_login">
+
+        </activity>
+        <activity
+            android:name=".StudentHome"
+            android:label="@string/title_activity_student_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CompanyRegistration"
+            android:label="Company"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CompanyLoginActivity"
+            android:label="Company"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".CompanyHome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Pvisit" />
+        <activity android:name=".Cvisit" />
+        <activity android:name=".CProfile" />
+        <activity android:name=".CompanyUpdate" />
+        <activity android:name=".AddNewVisit" />
+        <activity
+            android:name=".UpdateVisitHomeTab"
+            android:theme="@style/AppTheme.NoActionBar">
+            >
+        </activity>
+        <activity android:name=".VInfo" />
+        <activity android:name=".EStudents" />
+        <activity android:name=".UV" />
+        <activity android:name=".VisitModify" />
+        <activity
+            android:name=".StudentInformation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".StudentUpdate" />
+        <activity android:name=".CompanyInformation" />
+        <activity android:name=".VisitInformation"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="application.nis.com.placementcell.ProfileFragement">
+
+    <TextView
+        android:id="@+id/stname"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/stedit"
+        android:layout_marginTop="12dp"
+        android:text="Company Details"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/stedit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:textStyle="bold"
+        android:background="@android:color/holo_green_light"
+        android:text="Modify"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/stlogout"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:background="#ff0000"
+        android:text="Logout"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <ListView
+        android:id="@+id/stlistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/stname"
+        android:layout_marginTop="14dp" />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+    <!--   tools:context="application.nis.com.placementcell.ProfileFragement"> -->

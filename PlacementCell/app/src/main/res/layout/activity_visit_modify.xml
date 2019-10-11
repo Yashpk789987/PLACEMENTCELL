@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="application.nis.com.placementcell.VisitModify">
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#ffffff"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Modify Visit"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+    <ScrollView
+        android:paddingTop="40dp"
+        android:id="@+id/cupdatescrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+        <LinearLayout
+            android:id="@+id/cupdateform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorPrimary">
+
+                <AutoCompleteTextView
+                    android:id="@+id/VisitName"
+                    android:layout_width="342dp"
+                    android:layout_height="52dp"
+                    android:hint="Visit Name"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                     />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorPrimary">
+
+                <AutoCompleteTextView
+                    android:id="@+id/branches"
+                    android:layout_width="342dp"
+                    android:layout_height="52dp"
+                    android:hint="Branches"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                     />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorPrimary">
+
+                <AutoCompleteTextView
+                    android:id="@+id/becgpa"
+                    android:layout_width="342dp"
+                    android:layout_height="52dp"
+                    android:hint="Required B.Tech Cgpa"
+                    android:inputType="numberDecimal"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                     />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorPrimary">
+
+                <AutoCompleteTextView
+                    android:id="@+id/twelth"
+                    android:layout_width="342dp"
+                    android:layout_height="52dp"
+                    android:hint="Required 12th Per."
+                    android:inputType="numberDecimal"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                     />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorPrimary">
+
+                <AutoCompleteTextView
+                    android:id="@+id/tenth"
+                    android:layout_width="342dp"
+                    android:layout_height="52dp"
+                    android:hint="Required 10th Per."
+                    android:inputType="numberDecimal"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                     />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorPrimary">
+
+                <AutoCompleteTextView
+                    android:id="@+id/vplace"
+                    android:layout_width="342dp"
+                    android:layout_height="52dp"
+                    android:hint="Visit Place"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                     />
+            </android.support.design.widget.TextInputLayout>
+            <Button
+                android:id="@+id/vupdatebtn"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="16dp"
+                android:text="Modify Details "
+                android:background="@drawable/ovalbutton"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+    </ScrollView>
+</RelativeLayout>

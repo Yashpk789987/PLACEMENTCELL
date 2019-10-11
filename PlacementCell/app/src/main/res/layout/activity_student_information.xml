@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="application.nis.com.placementcell.StudentInformation">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView5"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="69dp"
+        android:id="@+id/relativeLayout2">
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/Namev"
+            android:text="Name "
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Namev"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/Branchv"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="19dp"
+            android:gravity="right"
+            android:textAlignment="gravity"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/Branch"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/Branchv"
+            android:text="Branch"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Branchv"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/Cgpav"
+            android:layout_alignLeft="@+id/Cgpav"
+            android:layout_alignStart="@+id/Cgpav"
+            android:layout_marginBottom="25dp"
+            android:gravity="right"
+            android:textAlignment="gravity"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/Cgpa"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Branchv"
+            android:text="Cgpa"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Cgpav"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/_12thmarksv"
+            android:layout_alignLeft="@+id/_12thmarksv"
+            android:layout_alignStart="@+id/_12thmarksv"
+            android:layout_marginBottom="31dp"
+            android:gravity="right"
+            android:textAlignment="gravity"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/_12thmarks"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_alignBaseline="@+id/_12thmarksv"
+            android:layout_alignBottom="@+id/_12thmarksv"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="HSC"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/_12thmarksv"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/_10thmarksv"
+            android:layout_alignLeft="@+id/_10thmarksv"
+            android:layout_alignStart="@+id/_10thmarksv"
+            android:layout_marginBottom="32dp"
+            android:gravity="right"
+            android:textAlignment="gravity"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/_10thmarks"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_alignBaseline="@+id/_10thmarksv"
+            android:layout_alignBottom="@+id/_10thmarksv"
+            android:layout_alignLeft="@+id/_12thmarks"
+            android:layout_alignStart="@+id/_12thmarks"
+            android:text="Metric"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/_10thmarksv"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/emailv"
+            android:layout_alignLeft="@+id/emailv"
+            android:layout_alignStart="@+id/emailv"
+            android:layout_marginBottom="24dp"
+            android:gravity="right"
+            android:textAlignment="gravity"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/Email"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_alignBaseline="@+id/emailv"
+            android:layout_alignBottom="@+id/emailv"
+            android:layout_alignLeft="@+id/_10thmarks"
+            android:layout_alignStart="@+id/_10thmarks"
+            android:text="Email"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/emailv"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+
+            android:layout_alignLeft="@+id/Namev"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/Namev"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:gravity="right"
+            android:textAlignment="gravity"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/relativeLayout2"
+            android:layout_centerHorizontal="true"
+            android:text="Student Details"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
